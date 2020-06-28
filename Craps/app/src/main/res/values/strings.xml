@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Craps300283635</string>
+    <string name="welcome">Welcome</string>
+    <string name="point">Your point is:</string>
+    <string name="dice00View">dice00View</string>
+    <string name="dice01View">dice01View</string>
+    <string name="dice10View">dice10View</string>
+    <string name="dice11View">dice11View</string>
+    <string name="roll">You rolled:</string>
+    <string name="play_btn">PLAY</string>
+    <string name="roll_btn">ROLL</string>
+    <string name="intro_result">Click PLAY to start the game</string>
+</resources>

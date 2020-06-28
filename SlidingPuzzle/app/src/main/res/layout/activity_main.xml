@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/moveText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="154dp"
+        android:text="Moves so far:" />
+
+    <TextView
+        android:id="@+id/moveCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="188dp"
+        android:text="82" />
+
+    <Button
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="124dp"
+        android:gravity="center"
+        android:text="New Game" />
+
+
+</LinearLayout>  -->
+
+<com.example.kandarp.myapplication.GestureDetectGrid
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/grid"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+</com.example.kandarp.myapplication.GestureDetectGrid>

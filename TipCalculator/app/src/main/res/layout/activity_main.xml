@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/billAmtLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bilLAmt"
+        android:text="@string/bill_amount_lbl"
+        android:textSize="@dimen/text_size" />
+
+    <EditText
+        android:id="@+id/bilLAmt"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="69dp"
+        android:layout_toEndOf="@+id/tipPercent"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tipPercentLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/billAmtLbl"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="29dp"
+        android:text="@string/tip_percent_lbl"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tipPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tipPercentLbl"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/tip_percent"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/percentDownBtn"
+        android:layout_width="@dimen/btn_width_height"
+        android:layout_height="@dimen/btn_width_height"
+        android:layout_alignBaseline="@+id/tipPercentLbl"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="192dp"
+        android:text="@string/decrease"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/percentUpBtn"
+        android:layout_width="@dimen/btn_width_height"
+        android:layout_height="@dimen/btn_width_height"
+        android:layout_alignBaseline="@+id/tipPercentLbl"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="58dp"
+        android:text="@string/increase"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tipAmtLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tipPercentLbl"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="203dp"
+        android:text="@string/tip_amount_lbl"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/tipAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tipPercent"
+        android:layout_alignTop="@+id/tipAmtLbl"
+        android:text="@string/tip_amount"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/totalAmtLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/billAmtLbl"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/total_amount_lbl"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/totalAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tipPercent"
+        android:layout_alignTop="@+id/totalAmtLbl"
+        android:text="@string/total_amount"
+        android:textSize="@dimen/text_size" />
+
+</RelativeLayout>

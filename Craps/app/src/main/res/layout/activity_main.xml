@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/welcome"
+        app:srcCompat="@drawable/crap3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="@string/point"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pointView"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/dice00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:contentDescription="@string/dice00View"
+            app:srcCompat="@drawable/blank2" />
+
+        <ImageView
+            android:id="@+id/dice01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:contentDescription="@string/dice01View"
+            app:srcCompat="@drawable/blank2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="@string/roll"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rollView"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/dice10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:contentDescription="@string/dice10View"
+            app:srcCompat="@drawable/blank2" />
+
+        <ImageView
+            android:id="@+id/dice11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:contentDescription="@string/dice11View"
+            app:srcCompat="@drawable/blank2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text="@string/play_btn"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/rollBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text="@string/roll_btn"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_result"
+        android:textSize="20sp" />
+</LinearLayout>

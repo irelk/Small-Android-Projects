@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="bill_amount_lbl">Bill Amount</string>
+    <string name="bill_amount">34.60</string>
+
+    <string name="tip_percent_lbl">Percent</string>
+    <string name="tip_percent">15%</string>
+    <string name="increase">+</string>
+    <string name="decrease">-</string>
+
+    <string name="total_amount_lbl">Total</string>
+    <string name="total_amount">$0.0</string>
+
+    <string name="tip_amount_lbl">Tip</string>
+    <string name="tip_amount">$0.0</string>
+
+
+</resources>

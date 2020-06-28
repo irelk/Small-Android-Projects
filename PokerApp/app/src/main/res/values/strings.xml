@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PokerApp</string>
+    <string name="plyr1text">Player 1</string>
+    <string name="plyr2txt">Player 2</string>
+</resources>
